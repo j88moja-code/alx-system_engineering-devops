@@ -1,2 +1,2 @@
 #!/bin/bash
-awk '{ print $1}' access.log.2022-03-08 | sort | uniq -c | sort -nr | head -n 10
+awk '{ print $1}' access.log.nasa_19950801.tsv | sort | uniq -c | sort -nr | head -n 10
