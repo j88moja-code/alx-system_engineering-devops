@@ -1,2 +1,2 @@
 #!/ban/bash
-grep linuxtechi /etc/passwd
+grep bash /etc/passwd
