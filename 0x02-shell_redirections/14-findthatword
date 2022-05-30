@@ -1,2 +1,2 @@
 #!/ban/bash
-grep -n 'root' /etc/passwd
+grep root: /etc/passwd
