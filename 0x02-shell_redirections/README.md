@@ -7,3 +7,4 @@
 #5 display the first 10 lines of /etc/passwd
 #6 displays the 3rd line of the file iacta
 #7 a script that creates a file with Best School text
+#8 saves current state of directory
