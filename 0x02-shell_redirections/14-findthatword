@@ -1,2 +1,2 @@
 #!/ban/bash
-grep root /etc/passwd
+grep and tr usage
