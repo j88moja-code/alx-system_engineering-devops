@@ -1,2 +1,3 @@
-# 0x02-shell_redirections
-# 0 a script that prints 'Hello, World'
+#0x02-shell_redirections
+#0 a script that prints 'Hello, World'
+#1 a script that displays a confused smiley
