@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%o\n" $DIR
+echo 'paste -d, - - | cut -d, -f1'
