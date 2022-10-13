@@ -21,4 +21,5 @@ This folder contains projects and tasks for 0x04-loops_conditions_and_parsing as
 
 * [100-read_and_cut]() - a Bash script that displays the content of the file /etc/passwd. ; Your script should only display: ; username ; user id ; Home directory path for the user ; Requirements: ; You must use the while loop (for and until are forbidden)
 * [101-tell_the_story_of_passwd]() - a Bash script that displays the content of the file /etc/passwd, using the while loop + IFS. Requirements: ; You must use the while loop (for and until are forbidden)
-^ [102-lets_parse_apache_logs]() - a Bash script that displays the visitor IP along with the HTTP status code from the Apache log file.
+* [102-lets_parse_apache_logs]() - a Bash script that displays the visitor IP along with the HTTP status code from the Apache log file.
+* [103-dig_the-data]() - a Bash script that groups visitors by IP and HTTP status code, and displays this data.
