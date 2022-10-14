@@ -14,6 +14,6 @@
 ``advanced tasks``
 
 * [100-process_and_pid_file](https://github.com/j88moja-code/alx-system_engineering-devops/blob/main/0x05-processes_and_signals/100-process_and_pid_file) -  a Bash script that: Creates the file `/var/run/myscript.pid` containing its PID ; Displays To infinity and beyond indefinitely ; Displays `I hate the kill command` when receiving a SIGTERM signal ; Displays `Y U no love me?!` when receiving a SIGINT signal ; Deletes the file `/var/run/myscript.pid` and terminates itself when receiving a SIGQUIT or SIGTERM signal
-* [101-manage_my_process]() - Bash (init) script 101-manage_my_process that manages `manage_my_process`
-* [manage_my_process]() - a Bash script that: Indefinitely writes I am alive! to the file `/tmp/my_process` ; In between every `I am alive!` message, the program should pause.
+* [101-manage_my_process](https://github.com/j88moja-code/alx-system_engineering-devops/blob/main/0x05-processes_and_signals/101-manage_my_process) - Bash (init) script 101-manage_my_process that manages `manage_my_process`
+* [manage_my_process](https://github.com/j88moja-code/alx-system_engineering-devops/blob/main/0x05-processes_and_signals/manage_my_process) - a Bash script that: Indefinitely writes I am alive! to the file `/tmp/my_process` ; In between every `I am alive!` message, the program should pause.
 * [102-zombie.c]() - a C program that creates 5 zombie processes. ; Requirements: ; For every zombie process created, it displays `Zombie process created, PID: ZOMBIE_PID`. ; Your code should use the Betty style. It will be checked using `betty-style.pl` and `betty-doc.pl` ; When your code is done creating the parent process and the zombies, use the function bellow
