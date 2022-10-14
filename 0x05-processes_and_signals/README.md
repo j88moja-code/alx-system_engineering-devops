@@ -2,12 +2,18 @@
 
 ``mandatory tasks``
 
-* [0-what-is-my-pid]() - a Bash script that displays its own PID.
-* [1-list_your_processes]() -  a Bash script that displays lines containing the bash word, thus allowing you to easily get the PID of your Bash process. ; Requirements: You cannot use pgrep ; The third line of your script must be # shellcheck disable=SC2009 (for more info about ignoring shellcheck error here)
-* [3-show_your_bash_pid_made_easy]() - a Bash script that displays the PID, along with the process name, of processes whose name contain the word `bash`. ; Requirements: ; You cannot use `ps`
-* [4-to_infinity_and_beyond]() - a Bash script that displays `To infinity and beyond indefinitely`. ; Requirements: ; In between each iteration of the loop, add a `sleep 2`
-* [5-dont_stop_me_now]() - We stopped our `4-to_infinity_and_beyond` process using `ctrl+c` in the previous task, there is actually another way to do this. ; Write a Bash script that stops `4-to_infinity_and_beyond` process. ; Requirements: ; You must use `kill`
-* [6-stop_me_if_you_can]() - a Bash script that stops `4-to_infinity_and_beyond process`. ; Requirements: ; You cannot use `kill` or `killall`
-* [7-highlander]() -  Bash script that displays: ; `To infinity and beyond` indefinitely ; With a `sleep 2` in between each iteration ; I am invincible!!! when receiving a SIGTERM signal ; Make a copy of your `6-stop_me_if_you_can` script, name it `67-stop_me_if_you_can`, that kills the `7-highlander` process instead of the `4-to_infinity_and_beyond` one.
-* [8-beheaded_process]() - a Bash script that kills the process `7-highlander`.
+* [0-what-is-my-pid](https://github.com/j88moja-code/alx-system_engineering-devops/blob/main/0x05-processes_and_signals/0-what-is-my-pid) - a Bash script that displays its own PID.
+* [1-list_your_processes](https://github.com/j88moja-code/alx-system_engineering-devops/blob/main/0x05-processes_and_signals/1-list_your_processes) -  a Bash script that displays lines containing the bash word, thus allowing you to easily get the PID of your Bash process. ; Requirements: You cannot use pgrep ; The third line of your script must be # shellcheck disable=SC2009 (for more info about ignoring shellcheck error here)
+* [3-show_your_bash_pid_made_easy](https://github.com/j88moja-code/alx-system_engineering-devops/blob/main/0x05-processes_and_signals/3-show_your_bash_pid_made_easy) - a Bash script that displays the PID, along with the process name, of processes whose name contain the word `bash`. ; Requirements: ; You cannot use `ps`
+* [4-to_infinity_and_beyond](https://github.com/j88moja-code/alx-system_engineering-devops/blob/main/0x05-processes_and_signals/4-to_infinity_and_beyond) - a Bash script that displays `To infinity and beyond indefinitely`. ; Requirements: ; In between each iteration of the loop, add a `sleep 2`
+* [5-dont_stop_me_now](https://github.com/j88moja-code/alx-system_engineering-devops/blob/main/0x05-processes_and_signals/5-dont_stop_me_now) - We stopped our `4-to_infinity_and_beyond` process using `ctrl+c` in the previous task, there is actually another way to do this. ; Write a Bash script that stops `4-to_infinity_and_beyond` process. ; Requirements: ; You must use `kill`
+* [6-stop_me_if_you_can](https://github.com/j88moja-code/alx-system_engineering-devops/blob/main/0x05-processes_and_signals/6-stop_me_if_you_can) - a Bash script that stops `4-to_infinity_and_beyond process`. ; Requirements: ; You cannot use `kill` or `killall`
+* [7-highlander](https://github.com/j88moja-code/alx-system_engineering-devops/blob/main/0x05-processes_and_signals/7-highlander) -  Bash script that displays: ; `To infinity and beyond` indefinitely ; With a `sleep 2` in between each iteration ; I am invincible!!! when receiving a SIGTERM signal ; Make a copy of your `6-stop_me_if_you_can` script, name it `67-stop_me_if_you_can`, that kills the `7-highlander` process instead of the `4-to_infinity_and_beyond` one.
+* [8-beheaded_process](https://github.com/j88moja-code/alx-system_engineering-devops/blob/main/0x05-processes_and_signals/8-beheaded_process) - a Bash script that kills the process `7-highlander`.
 
+``advanced tasks``
+
+* [100-process_and_pid_file](https://github.com/j88moja-code/alx-system_engineering-devops/blob/main/0x05-processes_and_signals/100-process_and_pid_file) -  a Bash script that: Creates the file `/var/run/myscript.pid` containing its PID ; Displays To infinity and beyond indefinitely ; Displays `I hate the kill command` when receiving a SIGTERM signal ; Displays `Y U no love me?!` when receiving a SIGINT signal ; Deletes the file `/var/run/myscript.pid` and terminates itself when receiving a SIGQUIT or SIGTERM signal
+* [101-manage_my_process]() - Bash (init) script 101-manage_my_process that manages `manage_my_process`
+* [manage_my_process]() - a Bash script that: Indefinitely writes I am alive! to the file `/tmp/my_process` ; In between every `I am alive!` message, the program should pause.
+* [102-zombie.c]() - a C program that creates 5 zombie processes. ; Requirements: ; For every zombie process created, it displays `Zombie process created, PID: ZOMBIE_PID`. ; Your code should use the Betty style. It will be checked using `betty-style.pl` and `betty-doc.pl` ; When your code is done creating the parent process and the zombies, use the function bellow
