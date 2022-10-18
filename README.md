@@ -12,3 +12,4 @@ This repo contains source code for projects and tasks covered under ALX System E
 ## [command_line_for_the_win](https://github.com/j88moja-code/alx-system_engineering-devops/tree/main/command_line_for_the_win)
 ## [0x04-loops_conditions_and_parsing](https://github.com/j88moja-code/alx-system_engineering-devops/tree/main/0x04-loops_conditions_and_parsing)
 ## [0x05-processes_and_signals](https://github.com/j88moja-code/alx-system_engineering-devops/tree/main/0x05-processes_and_signals)
+## [0x06-regular_expressions]()
