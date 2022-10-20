@@ -13,5 +13,5 @@ This repo contains source code for projects and tasks covered under ALX System E
 ## [0x04-loops_conditions_and_parsing](https://github.com/j88moja-code/alx-system_engineering-devops/tree/main/0x04-loops_conditions_and_parsing)
 ## [0x05-processes_and_signals](https://github.com/j88moja-code/alx-system_engineering-devops/tree/main/0x05-processes_and_signals)
 ## [0x06-regular_expressions](https://github.com/j88moja-code/alx-system_engineering-devops/tree/main/0x06-regular_expressions)
-## [0x07-networking_basics]()
-## [0x08-networking_basics_2]()
+## [0x07-networking_basics](https://github.com/j88moja-code/alx-system_engineering-devops/tree/main/0x07-networking_basics)
+## [0x08-networking_basics_2](https://github.com/j88moja-code/alx-system_engineering-devops/tree/main/0x08-networking_basics_2)
