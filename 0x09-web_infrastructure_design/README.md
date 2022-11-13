@@ -2,7 +2,7 @@
 
 `mandatory tasks`
 
-- [0-simple_web_stack]() - design a three server web infrastructure that hosts the website `www.foobar.com`.
+- [0-simple_web_stack](https://github.com/j88moja-code/alx-system_engineering-devops/blob/main/0x09-web_infrastructure_design/0-simple_web_stack) - design a three server web infrastructure that hosts the website `www.foobar.com`.
 
   Requirements:
 
@@ -24,7 +24,7 @@
             * Security issues (no firewall, no HTTPS)
             * No monitoring
 
-- [1-distributed_web_infrastructure]() - design a three server web infrastructure that hosts the website www.foobar.com.
+- [1-distributed_web_infrastructure](https://github.com/j88moja-code/alx-system_engineering-devops/blob/main/0x09-web_infrastructure_design/1-distributed_web_infrastructure) - design a three server web infrastructure that hosts the website www.foobar.com.
 
   Requirements:
 
@@ -46,7 +46,7 @@
             * Security issues (no firewall, no HTTPS)
             * No monitoring
 
-- [2-secured_and_monitored_web_infrastructure]()- design a three server web infrastructure that hosts the website `www.foobar.com`, it must be secured, serve encrypted traffic, and be monitored.
+- [2-secured_and_monitored_web_infrastructure](https://github.com/j88moja-code/alx-system_engineering-devops/blob/main/0x09-web_infrastructure_design/2-secured_and_monitored_web_infrastructure)- design a three server web infrastructure that hosts the website `www.foobar.com`, it must be secured, serve encrypted traffic, and be monitored.
 
       Requirements:
 
