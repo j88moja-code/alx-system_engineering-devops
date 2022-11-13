@@ -26,4 +26,4 @@ This repo contains source code for projects and tasks covered under ALX System E
 
 ## [0x08-networking_basics_2](https://github.com/j88moja-code/alx-system_engineering-devops/tree/main/0x08-networking_basics_2)
 
-## [0x09-web_infrastructure_design]()
+## [0x09-web_infrastructure_design](https://github.com/j88moja-code/alx-system_engineering-devops/tree/main/0x09-web_infrastructure_design)
