@@ -9,3 +9,8 @@
         * You don't need to handle the case of private key protected by a passphrase
 
 * [1-create_ssh_key_pair]() - 
+* [2-ssh_config]()
+
+`advanced_tasks`
+
+* [100-puppet_ssh_config.pp]()
