@@ -1,19 +1,7 @@
+Bytes
 #!/usr/bin/env bash
-# Script that configures a new Ubuntu machine to respect above requirements
-
-apt-get update
-apt-get install -y nginx
-
-mkdir /etc/nginx/html
-touch/etc/nginx/index.html
-echo "Hello World!" > /var/www/html/index.html
-printf %s "server" {
-    listen      80 default_server;
-    listen      [::]:80 default_server;
-    root        /etc/nginx/html;
-    index       index.html index.htm;
-}
-
-" > /etc/nginx/sites-available/default
-
-service nginx restart
+# Script that installs Nginx server
+apt-get -y update
+apt-get -y install nginx
+echo "Hello World!" > /var/www/html/index.nginx-debian.html
+service nginx start
