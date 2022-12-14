@@ -1,12 +1,6 @@
-# Sets up client SSH config file to use a private key
-include stdlib
-
-file_line {
-    path => '/ect/ssh/ssh_config',
-    line => 'IdentityFile ~/ .ssh/school',
-}
-
-file_line { 'TURN OFF Password Auth':
-    path => '/ect/ssh/ssh_config',
-    line => 'PasswordAuthentication no',
+# Changes SSH config file
+exec { 'echo':
+  path    => 'usr/bin:/bin',
+  command => 'echo "    IdentityFile ~/.ssh/school\n    PasswordAuthentication no" >> /etc/ssh/ssh_config',
+  returns => [0,1],
 }
