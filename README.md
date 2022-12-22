@@ -39,3 +39,5 @@ This repo contains source code for projects and tasks covered under ALX System E
 ## [0x0C-web_server](https://github.com/j88moja-code/alx-system_engineering-devops/tree/main/0x0C-web_server)
 
 ## [0x0E-web_stack_debugging_1](https://github.com/j88moja-code/alx-system_engineering-devops/tree/main/0x0E-web_stack_debugging_1)
+
+## [0x10-https_ssl]()
