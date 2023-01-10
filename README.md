@@ -46,4 +46,6 @@ This repo contains source code for projects and tasks covered under ALX System E
 
 ## [0x12-web_stack_debugging_2](https://github.com/j88moja-code/alx-system_engineering-devops/tree/main/0x12-web_stack_debugging_2)
 
-## [0x13-firewall]()
+## [0x13-firewall](https://github.com/j88moja-code/alx-system_engineering-devops/tree/main/0x13-firewall)
+
+## [0x14-mysql]()
