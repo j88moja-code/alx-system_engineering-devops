@@ -48,4 +48,6 @@ This repo contains source code for projects and tasks covered under ALX System E
 
 ## [0x13-firewall](https://github.com/j88moja-code/alx-system_engineering-devops/tree/main/0x13-firewall)
 
-## [0x14-mysql]()
+## [0x14-mysql](https://github.com/j88moja-code/alx-system_engineering-devops/tree/main/0x14-mysql)
+
+## [0x15-api]()
