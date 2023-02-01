@@ -52,4 +52,6 @@ This repo contains source code for projects and tasks covered under ALX System E
 
 ## [0x15-api](https://github.com/j88moja-code/alx-system_engineering-devops/tree/main/0x15-api)
 
-## [0x16-api_advanced]()
+## [0x16-api_advanced](https://github.com/j88moja-code/alx-system_engineering-devops/tree/main/0x16-api_advanced)
+
+## [0x17-web_stack_debugging_3]()
