@@ -59,3 +59,5 @@ This repo contains source code for projects and tasks covered under ALX System E
 ## [0x18-webstack_monitoring](https://github.com/j88moja-code/alx-system_engineering-devops/tree/main/0x18-webstack_monitoring)
 
 ## [0x19-postmortem]()
+
+## [0x1A-application_server]()
